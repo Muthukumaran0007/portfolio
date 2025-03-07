@@ -1,172 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muthukumaran K's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- AOS Library -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
 
+    <!-- Hero Section -->
     <header>
         <div class="hero">
-            <h1>Crafting the Future of Cloud Engineering</h1>
-            <p>Welcome to my digital space where innovation meets technology.</p>
-            <a href="#contact" class="cta-button">Get in Touch</a>
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                    <h1>Innovating with <span class="typed-text"></span></h1>
+                    <p>Hi, I'm Muthukumaran K, an AWS Certified Cloud Practitioner and AI/ML enthusiast. Let's build the future together!</p>
+                    <a href="#contact" class="cta-button">Let's Connect</a>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="https://media.licdn.com/dms/image/v2/D5635AQGy0eBQTWI4HQ/profile-framedphoto-shrink_400_400/B56ZVw1mUbHEAc-/0/1741354854071?e=1741960800&v=beta&t=9rnQa1-WtcDHKlOAucZMjKWmE3D0Vq86xJbCMhclIgI" alt="Muthukumaran K">
+                </div>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#profile">Profile</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#experience-table">Experience Details</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#feedback">Feedback</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
+    <!-- Profile Section -->
     <section id="profile">
-        <h2>Profile</h2>
-        <img src=https://media.licdn.com/dms/image/v2/D5603AQGLz7PiZqPlsw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724008483117?e=1729728000&v=beta&t=B5a5FPUK90MuTp7NiI4N_v3TMwK3NCE0zY8oR0IsqYc alt="Muthukumaran K">
-        <p>Hello! I'm Muthukumaran K, a cloud engineering enthusiast dedicated to crafting innovative solutions that propel businesses forward. Dive into my journey and see how I've turned challenges into opportunities.</p>
-        <a href="MKresume.pdf" class="cta-button">Download Resume</a>
+        <div class="profile-content" data-aos="fade-up" data-aos-duration="1000">
+            <div class="profile-text">
+                <h2>Muthukumaran K</h2>
+                <p>AWS Certified | Aspiring Cloud & AI/ML Specialist</p>
+                <p>I specialize in building scalable cloud solutions and leveraging AI/ML to solve real-world problems. Let's create something amazing!</p>
+                <a href="MKresume.pdf" class="cta-button">Download Resume</a>
+            </div>
+        </div>
     </section>
 
+    <!-- About Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>From a fascination with technology to a career in cloud engineering, my journey has been driven by curiosity and a passion for problem-solving. At KPRIET, I built a strong foundation in cloud computing, earning my AWS Cloud Practitioner certification. My mission is to simplify complex problems with efficient cloud solutions, driving business success and technological advancement.</p>
+        <h2 data-aos="fade-up" data-aos-duration="1000">About Me</h2>
+        <p data-aos="fade-up" data-aos-duration="1000">I'm a passionate technologist with a strong foundation in cloud computing and artificial intelligence. Currently pursuing my B.Tech in Artificial Intelligence and Data Science, I've gained hands-on experience with AWS, Python, and machine learning frameworks. My mission is to simplify complex problems with efficient, scalable solutions.</p>
     </section>
 
-    <section id="experience">
-        <h2> CERTIFICATIONS</h2>
-        <ul>
-            <li><strong>AWS Certified Cloud Practitioner – AWS</strong></li>
-            <li><strong>Data Aquisition - NASSCOM</strong></li>
-            <li><strong>Linux Fundamentals - Coursera</strong></li>
-            <li><strong>Introduction to MongoDB by MongoDB</strong></li>
-        </ul>
-    </section>
-
-    <section id="experience-table">
-        <h2>Experience Details</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Company</th>
-                    <th>Role</th>
-                    <th>Duration</th>
-                    <th>Technologies Used</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>CodTechIT Solutions</td>
-                    <td>Intern</td>
-                    <td>4 Weeks</td>
-                    <td>AWS, Python</td>
-                </tr>
-                <tr>
-                    <td>OneData Solutions</td>
-                    <td>Intern</td>
-                    <td>6 Weeks</td>
-                    <td>Cloud Infrastructure, Linux</td>
-                </tr>
-                <tr>
-                    <td>EI Systems</td>
-                    <td>Intern</td>
-                    <td>8 Weeks</td>
-                    <td>Serverless Architecture, Node.js</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="grid-container">
-            <article>
-                <h3>Skin Disease Analysis</h3>
-                <p>Developed an AI-based web app for diagnosing skin
- diseases using deep learning. Integrated with Flask,
- TensorFlow, and a custom GPT model for detailed
- disease information and analysis </p>
-            </article>
-            <article>
-                <h3>Deploying a Web Application in the Cloud</h3>
-                <p>This project demonstrates the process of deploying a simple web application using a cloud service provider, providing a fundamental understanding of cloud deployment, including setting up a virtual server, configuring a web application, and utilizing essential cloud services.</p>
-                <a href="https://github.com/Muthukumaran0007/CODTECH-TASK1.git">Read More</a>
-            </article>
-            <article>
-                <h3>Creating a Serverless Application with AWS Lambda</h3>
-                <p>This project demonstrates the creation of a serverless application using AWS Lambda, providing an understanding of serverless computing and how to build applications without the need to manage servers.</p>
-                <a href="https://github.com/Muthukumaran0007/CODTECH-TASK2.git">Read More</a>
-            </article>
-            <article>
-                <h3>Course Recommendation System</h3>
-                <p> Implemented a course recommendation system to
- suggest relevant courses to students based on their
- academic history and interests. Utilized collaborative
- filtering and content-based filtering techniques to
- personalize recommendations.</p>
-            </article>
-        </div>
-    </section>
-
+    <!-- Skills Section -->
     <section id="skills">
-        <h2>Skills</h2>
-        <div class="grid-container">
-            <div>
-                <h4>Programming Languages</h4>
-                <p>R, Python, C, Java</p>
+        <h2 data-aos="fade-up" data-aos-duration="1000">Skills</h2>
+        <div class="skills-grid">
+            <div class="skills-category" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Cloud Computing</h3>
+                <ul>
+                    <li>Amazon Web Services (AWS): EC2, S3, IAM, Lambda</li>
+                    <li>VMware: Virtualization and cloud infrastructure</li>
+                    <li>Docker: Containerization and deployment</li>
+                    <li>Linux: Fundamentals and command-line operations</li>
+                </ul>
             </div>
-            <div>
-                <h4>Cloud</h4>
-                <p>AWS (Amazon Web Services)</p>
+            <div class="skills-category" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python: AI/ML, web development, automation</li>
+                    <li>Java: Basic understanding</li>
+                    <li>C: Basic knowledge</li>
+                    <li>R: Data analysis</li>
+                    <li>HTML, CSS, JavaScript: Front-end web development</li>
+                </ul>
             </div>
-            <div>
-                <h4>Databases</h4>
-                <p>MySQL, MongoDB, OracleDB</p>
+            <div class="skills-category" data-aos="fade-up" data-aos-duration="1000">
+                <h3>AI/ML & Data Science</h3>
+                <ul>
+                    <li>OpenCV: Image processing and computer vision</li>
+                    <li>DeepFace: Facial emotion recognition</li>
+                    <li>Pandas: Data manipulation and analysis</li>
+                    <li>LangChain: AI chatbots and NLP</li>
+                </ul>
             </div>
-            <div>
-                <h4>Web Development</h4>
-                <p>HTML, CSS, React</p>
+            <div class="skills-category" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>Git & GitHub: Version control</li>
+                    <li>Google Colab: Cloud-based Jupyter notebooks</li>
+                    <li>Flask: Web applications and APIs</li>
+                    <li>AWS Tools: EC2, S3, IAM, Lambda</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="feedback">
-        <h2>Feedback</h2>
-        <form action="#" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit" class="cta-button">Submit Feedback</button>
-        </form>
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 data-aos="fade-up" data-aos-duration="1000">Experience</h2>
+        <div class="experience-grid">
+            <div class="experience-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>CodTech IT Solutions</h3>
+                <p><strong>Role:</strong> Cloud Intern</p>
+                <p><strong>Duration:</strong> 4 Weeks</p>
+                <p>Developed and deployed scalable AWS cloud infrastructure, improving resource allocation by 20%.</p>
+            </div>
+            <div class="experience-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>OneData Solutions</h3>
+                <p><strong>Role:</strong> Cloud Intern</p>
+                <p><strong>Duration:</strong> 6 Weeks</p>
+                <p>Managed cloud infrastructure using AWS services like EC2, S3, and IAM, focusing on security and scalability.</p>
+            </div>
+            <div class="experience-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>EI Systems</h3>
+                <p><strong>Role:</strong> Cloud Intern</p>
+                <p><strong>Duration:</strong> 8 Weeks</p>
+                <p>Implemented serverless computing using AWS Lambda, reducing deployment time by 30%.</p>
+            </div>
+        </div>
     </section>
 
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2 data-aos="fade-up" data-aos-duration="1000">Certifications</h2>
+        <div class="certifications-grid">
+            <div class="certification-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>AWS Certified Cloud Practitioner</h3>
+                <p>Issued by Amazon Web Services (AWS)</p>
+                <p><strong>Date:</strong> 2024</p>
+            </div>
+            <div class="certification-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Data Acquisition</h3>
+                <p>Issued by NASSCOM</p>
+                <p><strong>Date:</strong> 2023</p>
+            </div>
+            <div class="certification-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Linux Fundamentals</h3>
+                <p>Issued by Coursera</p>
+                <p><strong>Date:</strong> 2023</p>
+            </div>
+            <div class="certification-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Introduction to MongoDB</h3>
+                <p>Issued by MongoDB</p>
+                <p><strong>Date:</strong> 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 data-aos="fade-up" data-aos-duration="1000">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Farmer's AI Chatbot</h3>
+                <p>Developed an AI chatbot for farmers using Flask, LangChain, and OpenRouter AI to provide real-time market prices, pest control, and fertilizer recommendations.</p>
+                <a href="https://github.com/your-profile/farmers-ai-chatbot" target="_blank" class="project-button">View Project</a>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Skin Disease Analysis</h3>
+                <p>Built an AI-based web app for diagnosing skin diseases using Flask, TensorFlow, and OpenRouter AI.</p>
+                <a href="https://github.com/your-profile/skin-disease-analysis" target="_blank" class="project-button">View Project</a>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Emotion Recognition System</h3>
+                <p>Created a real-time facial emotion recognition system using OpenCV and DeepFace, achieving 90% accuracy.</p>
+                <a href="https://github.com/your-profile/emotion-recognition" target="_blank" class="project-button">View Project</a>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Course Recommendation System</h3>
+                <p>Implemented a course recommendation system using collaborative filtering and content-based filtering techniques.</p>
+                <a href="https://github.com/your-profile/course-recommendation" target="_blank" class="project-button">View Project</a>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Deploying a Web Application in the Cloud</h3>
+                <p>Deployed a scalable web application on AWS, ensuring optimal performance and security.</p>
+                <a href="https://github.com/your-profile/web-app-deployment" target="_blank" class="project-button">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <h2 data-aos="fade-up" data-aos-duration="1000">Achievements & Participation</h2>
+        <div class="achievements-grid">
+            <div class="achievement-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Intel One API Hackathon</h3>
+                <p>Developed an emotional assistant using Hugging Face models in a 24-hour hackathon.</p>
+            </div>
+            <div class="achievement-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>AWS APAC Solutions Architecture</h3>
+                <p><strong>Role:</strong> Solutions Architect</p>
+                <p><strong>Key Contributions:</strong> Designed scalable hosting architecture, communicated technical concepts to clients.</p>
+            </div>
+            <div class="achievement-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Amazon ML Challenge 2025</h3>
+                <p>Participated in a 3-day hackathon, successfully extracting product attributes from images using machine learning techniques.</p>
+            </div>
+            <div class="achievement-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Googlathon 2.0</h3>
+                <p>SNS College of Engineering</p>
+            </div>
+            <div class="achievement-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>ITECH-Hackfest</h3>
+                <p>PSG ITECH</p>
+            </div>
+            <div class="achievement-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Smart India Hackathon</h3>
+                <p>Government of India (2023 & 2024)</p>
+            </div>
+            <div class="achievement-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Havana 2025</h3>
+                <p>GITAM University, Hyderabad</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Interested in working together? Reach out!</p>
-        <p>Email: <a href="mailto:muthukumaran1052005@gmail.com">Muthukumaran K</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/muthukumaran-k-445697219">Muthukumaran k</a></p>
+        <h2 data-aos="fade-up" data-aos-duration="1000">Contact</h2>
+        <p data-aos="fade-up" data-aos-duration="1000">Let's collaborate and build something amazing! Reach out to me:</p>
+        <div class="contact-info">
+            <p data-aos="fade-up" data-aos-duration="1000"><i class="fas fa-envelope"></i> <a href="mailto:muthukumaran1052005@gmail.com">muthukumaran1052005@gmail.com</a></p>
+            <p data-aos="fade-up" data-aos-duration="1000"><i class="fas fa-phone"></i> +91 9080807076</p>
+            <p data-aos="fade-up" data-aos-duration="1000"><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/muthukumaran-k-445697219">LinkedIn Profile</a></p>
+            <p data-aos="fade-up" data-aos-duration="1000"><i class="fab fa-github"></i> <a href="https://github.com/your-profile">GitHub Profile</a></p>
+        </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Muthukumaran K. Building the future, one cloud at a time.</p>
+        <p>&copy; 2024 Muthukumaran K. All rights reserved.</p>
     </footer>
 
+    <!-- Scroll-to-Top Button -->
+    <button id="scroll-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- AOS Library -->
+    <script>
+        AOS.init(); // Initialize AOS
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
