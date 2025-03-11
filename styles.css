@@ -198,6 +198,12 @@ body.dark-mode #profile {
     text-align: center;
 }
 
+#about h2 {
+    color: #ffcc00; /* Yellow for headings */
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
 body.dark-mode #about {
     background-color: #1a1a1a;
 }
@@ -289,6 +295,13 @@ body.dark-mode #about {
 #experience {
     background-color: #333333; /* Darker ash gray background */
     padding: 60px 20px;
+    text-align: center;
+}
+
+#experience h2 {
+    color: #ffcc00; /* Yellow for headings */
+    font-size: 2.5em;
+    margin-bottom: 40px;
 }
 
 body.dark-mode #experience {
@@ -324,6 +337,13 @@ body.dark-mode .experience-card {
 #certifications {
     background-color: #1a1a1a; /* Ash gray background */
     padding: 60px 20px;
+    text-align: center;
+}
+
+#certification h2 {
+    color: #ffcc00; /* Yellow for headings */
+    font-size: 2.5em;
+    margin-bottom: 40px;
 }
 
 body.dark-mode #certifications {
@@ -360,6 +380,13 @@ body.dark-mode .certification-card {
 #projects {
     background-color: #1a1a1a; /* Ash gray background */
     padding: 60px 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    color: #ffcc00; /* Yellow for headings */
+    font-size: 2.5em;
+    margin-bottom: 40px;
 }
 
 body.dark-mode #projects {
@@ -411,6 +438,13 @@ body.dark-mode .project-card {
 #achievements {
     background-color: #1a1a1a; /* Ash gray background */
     padding: 60px 20px;
+    text-align: center;
+}
+
+#achievements h2 {
+    color: #ffcc00; /* Yellow for headings */
+    font-size: 2.5em;
+    margin-bottom: 40px;
 }
 
 body.dark-mode #achievements {
@@ -448,6 +482,11 @@ body.dark-mode .achievement-card {
     color: #ffffff;
     padding: 60px 20px;
     text-align: center;
+}
+#contact h2 {
+    color: #ffcc00; /* Yellow for headings */
+    font-size: 2.5em;
+    margin-bottom: 40px;
 }
 
 .contact-info {
